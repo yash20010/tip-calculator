@@ -29,6 +29,8 @@ Users should be able to:
 
 ### Video
 
+https://user-images.githubusercontent.com/7217164/126884724-44ba886f-1a79-4f01-9e95-2efaff999ac0.mp4
+
 ### Screenshot
 
 <p align="center">
