@@ -6,6 +6,7 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Video](#video)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -26,6 +27,8 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Calculate the correct tip and total cost of the bill per person
 
+### Video
+
 ### Screenshot
 
 <p align="center">
@@ -36,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: <https://github.com/yash20010/tip-calculator#the-challenge>
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: <https://yash20010.github.io/tip-calculator/>
 
 ## My process
 
