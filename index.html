@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="logo">
+        <a href="#"><img src="images/logo.svg" alt="company icon" /></a>
+      </h1>
+      <div class="application">
+        <div class="input">
+          <div class="bill">
+            <h3>Bill</h3>
+            <img src="images/icon-dollar.svg" alt="dollar sign" />
+            <input type="text" placeholder="0" id="billCustom" />
+          </div>
+          <div class="tip">
+            <h3>Select Tip %</h3>
+            <div class="grid">
+              <input type="button" value="5%" />
+              <input type="button" value="10%" />
+              <input type="button" value="15%" />
+              <input type="button" value="25%" />
+              <input type="button" value="50%" />
+              <input type="text" placeholder="Custom" id="tipCustom" />
+            </div>
+          </div>
+          <div class="people">
+            <div class="flex">
+              <h3>Number of People</h3>
+              <h3 class="zeroPeople hidden">Can't be zero</h3>
+            </div>
+            <img src="images/icon-person.svg" alt="person sign" />
+            <input type="text" placeholder="0" id="peopleCustom" class="" />
+          </div>
+        </div>
+        <div class="output">
+          <div class="flex flex2">
+            <div class="tipAmount flex">
+              <div class="alignSelf">
+                <h2>Tip Amount</h2>
+                <span class="perPerson">/ person</span>
+              </div>
+              <div class="">
+                <span class="tipOutput">$0.00</span>
+              </div>
+            </div>
+            <div class="totalAmount flex">
+              <div class="alignSelf">
+                <h2>Total</h2>
+                <span class="perPerson">/ person</span>
+              </div>
+              <div class="">
+                <span class="totalOutput">$0.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="reset">
+            <input type="button" value="reset" class="resetBut" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Yash Parekh</a>.
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
