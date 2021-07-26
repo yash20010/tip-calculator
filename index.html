@@ -41,28 +41,39 @@
       <div class="application">
         <div class="input">
           <div class="bill">
-            <h3>Bill</h3>
+            <label for="bill">Bill</label>
             <img src="images/icon-dollar.svg" alt="dollar sign" />
-            <input type="text" placeholder="0" id="billCustom" />
+            <input name="bill" type="number" placeholder="0" id="billCustom" />
           </div>
           <div class="tip">
-            <h3>Select Tip %</h3>
+            <label for="tip">Select Tip %</label>
             <div class="grid">
-              <input type="button" value="5%" />
-              <input type="button" value="10%" />
-              <input type="button" value="15%" />
-              <input type="button" value="25%" />
-              <input type="button" value="50%" />
-              <input type="text" placeholder="Custom" id="tipCustom" />
+              <input name="tip" type="button" value="5%" />
+              <input name="tip" type="button" value="10%" />
+              <input name="tip" type="button" value="15%" />
+              <input name="tip" type="button" value="25%" />
+              <input name="tip" type="button" value="50%" />
+              <input
+                name="tip"
+                type="number"
+                placeholder="Custom"
+                id="tipCustom"
+              />
             </div>
           </div>
           <div class="people">
             <div class="flex">
-              <h3>Number of People</h3>
+              <label for="people">Number of People</label>
               <h3 class="zeroPeople hidden">Can't be zero</h3>
             </div>
             <img src="images/icon-person.svg" alt="person sign" />
-            <input type="text" placeholder="0" id="peopleCustom" class="" />
+            <input
+              name="people"
+              type="number"
+              placeholder="0"
+              id="peopleCustom"
+              class=""
+            />
           </div>
         </div>
         <div class="output">
