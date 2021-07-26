@@ -151,6 +151,8 @@ label {
 }
 
 .zeroPeople {
+  font-size: 1rem;
+  align-self: center;
   color: orangered;
 }
 
